@@ -1,0 +1,40 @@
+
+.landbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.vide{
+    object-fit:cover;
+    height: 100vh;
+    width: 100%;
+}
+.box{
+    background: black;
+    padding: 3rem; 
+    position: absolute;
+    opacity:.8;
+}
+.butt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+padding: 0.5rem 4rem;
+background: crimson;
+color: white;
+border-radius: 3rem;
+border: none;
+outline: none;
+&:hover{
+    background:  palevioletred
+}
+}

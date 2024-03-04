@@ -1,0 +1,173 @@
+
+
+.cont{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+.heady{
+    height: 10vh;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background:black;
+    padding: .5rem ;
+    z-index: 100;
+    .logoname{
+        .hw1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    .ican{
+        color: crimson;
+        margin-right: 10px;
+    }
+}
+a{
+    text-decoration: none;
+  }
+  
+  li{
+    list-style: none;
+  }
+}
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+padding: 0.5rem 1rem;
+background: crimson;
+color: white;
+border-radius: 3rem;
+border: none;
+outline: none;
+margin-left: 0.5rem;
+&:hover{
+    background:  palevioletred
+}
+}
+
+@media screen and (max-width:720px) {
+
+.navy{
+    background: black;
+    position: absolute;
+    height: max-content;
+    padding: 1rem;
+    width: 100%;
+    top: 0;
+    left:-500%;
+    box-shadow: 0 2px 4px crimson;
+    transition: .5s linear;
+
+    .navlist{
+       display: flex;
+       flex-direction: column;
+       justify-content:center;
+       align-items: center;
+       margin-left: 0;
+       width: 100%;
+       .navitem{
+        padding: .5rem 0;
+        
+        .navlink{
+            
+            color: white;
+            font-size: .9rem;
+            font-weight: 600;
+
+            &:hover{
+                color: crimson;
+            }
+        }
+       }
+    }
+    .end{
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        .ican{
+            font-size: 2rem;
+cursor: pointer;
+            color:crimson ;
+            &:hover{
+                color: palevioletred;
+            }
+        }
+       }    
+}
+.activenavbar{
+    left: 0%;
+   }
+
+.toggy{
+    font-size: 25px;
+    color: crimson;
+    &:hover{
+        color:palevioletred;
+    }
+}
+}
+
+
+@media screen and (min-width:720px) {
+.toggy,.end{
+display: none;
+}
+
+.heady{
+padding: 1.5rem 2rem;
+.navy{
+   .navlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    .navitem{
+        .navlink{
+color: white;
+font-size: .9rem;
+font-weight: 400;
+padding: 0.45rem;
+&:hover{
+color: crimson;
+}
+        }
+    }
+   }
+}
+}}
+
+@media screen and (min-width:1200px) {
+.logo{
+    margin-left: 2rem;   
+}
+
+.navitem{
+padding: 0.7rem;
+    .navlink{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+}
+
+.heady{
+padding: 1.5rem 2rem ;
+.navlist{
+    .navitem{
+        padding-right: 2rem;
+        .navlink{
+            font-size: 1rem;
+        }
+    }
+    
+}
+}
+
+
+}

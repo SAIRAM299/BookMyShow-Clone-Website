@@ -1,0 +1,30 @@
+.full{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loginbody{
+  position: absolute;
+  z-index: 100;
+  opacity: .8;
+}
+
+.vide{
+  object-fit:cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.login-form {
+    max-width: 300px;
+  }
+  .login-form-forgot {
+    float: right;
+  }
+  .ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+  .login-form-button {
+    width: 100%;
+  }

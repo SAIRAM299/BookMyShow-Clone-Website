@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0; 
+  padding: 0;
+box-sizing: border-box;
+} 
+  body{
+    font-family: 'Poppins', sans-serif;
+
+  }
+  .iconss{
+    font-size: 2rem;
+cursor: pointer;
+    color:crimson ;
+    &:hover{
+        color: palevioletred;
+    }
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+background: crimson;
+color: white;
+border-radius: 3rem;
+border: none;
+outline: none;
+&:hover{
+  background:  palevioletred
+}
+}
