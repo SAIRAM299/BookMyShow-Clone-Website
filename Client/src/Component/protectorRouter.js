@@ -89,7 +89,7 @@ const unshow=()=>{
                             <li className='navitem'><a href='' className=' navlink'>About</a></li>
                             <li className='navitem'><a href='' className=' navlink'>Contact</a></li>
 
-                            <li className='navitem'><a href='' className=' navlink'><button className='btns' >User:
+                            <li className='navitem'><a href='' className=' navlink'><button className='btns' onClick={log} >User:
                                 {user.name}
                                 
                                  </button></a></li>
