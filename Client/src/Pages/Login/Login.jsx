@@ -37,7 +37,6 @@ const onFinish = async (values) => {
     
     
         return (
-         
             <div className='full'>
               <video src={video} autoPlay loop muted className='vide'/>
             <div className='loginbody'  style={{display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column",background:"black", width:"400px"}}>
